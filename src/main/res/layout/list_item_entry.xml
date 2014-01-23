@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_weight="1"
+    android:orientation="vertical"  >
+    <LinearLayout
+    	android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:layout_weight="1"
+    	android:orientation="horizontal"
+    	android:paddingTop="10dp"
+    	android:paddingBottom="5dp"  >
+		<TextView
+		    android:id="@+id/prefix"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		 	android:textStyle="bold"
+		    android:paddingRight="0dp"
+		    android:paddingLeft="10dp"
+		    android:textSize="16sp"
+		    android:textColor="@color/prefix" >
+		</TextView>
+		<TextView
+		    android:id="@+id/lemma"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		 	android:textStyle="bold"
+		    android:paddingRight="2dp"
+		    android:paddingLeft="0dp"
+		    android:textSize="16sp"
+		    android:textColor="@color/lemma" >
+		</TextView>
+		<TextView
+		    android:id="@+id/modifier"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		 	android:textStyle="bold"
+		    android:paddingRight="0dp"
+		    android:paddingLeft="2dp"
+		    android:textSize="16sp" >
+		</TextView>
+	</LinearLayout>
+	<TextView
+	    android:id="@+id/meaning"
+	    android:layout_width="fill_parent"
+	    android:layout_height="fill_parent"
+	    android:paddingTop="5dp"
+		android:paddingRight="10dp"
+		android:paddingBottom="10dp"
+		android:paddingLeft="10dp"
+	    android:textSize="14sp" >
+	</TextView>
+</LinearLayout>

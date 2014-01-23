@@ -1,0 +1,27 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+	android:orientation="vertical"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:weightSum="1"
+	android:background="@color/results_background"
+    tools:context=".SearchActivity"
+    tools:ignore="MergeRootFrame">
+
+	<TextView
+		android:id="@+id/statusmessage"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:background="@color/status_background"
+		android:padding="2sp"
+		android:textColor="@color/status_text"
+		android:visibility="gone">
+	</TextView>
+
+	<ListView
+		android:id="@+id/listresults"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content">
+	</ListView>
+
+</LinearLayout>
